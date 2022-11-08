@@ -1,0 +1,46 @@
+.btnPrimary {
+  @apply bg-primary 
+  hover:bg-blue-600 
+  text-center 
+  font-medium 
+  focus:ring-2 
+  focus:ring-blue-300
+  uppercase 
+  rounded-full 
+  tracking-wide
+  text-[14px] 
+  px-5 
+  py-3;
+}
+
+.btnSecondary {
+  @apply bg-secondary 
+  hover:bg-orange-500
+  text-center 
+  font-medium 
+  focus:ring-2
+  focus:ring-orange-300
+  uppercase 
+  rounded-full 
+  tracking-wide
+  text-[14px] 
+  px-5 
+  py-3;
+}
+
+.btnLink {
+  @apply text-[#333333] 
+  hover:text-secondary
+  text-center 
+  font-medium 
+  uppercase 
+  rounded-full 
+  tracking-wide
+  text-[14px] 
+  !px-5
+  py-3;
+}
+
+.btnLarge {
+  @apply py-5 px-8;
+}
