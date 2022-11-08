@@ -1,11 +1,10 @@
-import "./App.css";
-import { ReactComponent as Programmer } from "./assets/programmer.svg";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
-    <div>
-      <Programmer />
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
