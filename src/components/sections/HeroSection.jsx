@@ -1,6 +1,6 @@
-import { Button } from "../UI/Button/Button";
+import { ReactComponent as HeroImage } from "@/assets/programmer.svg";
+import { Button } from "@/components/ui/button/Button";
 import { MdMailOutline, MdOutlineFileDownload } from "react-icons/md";
-import { ReactComponent as HeroImage } from "../../assets/programmer.svg";
 
 export const HeroSection = () => {
   return (
