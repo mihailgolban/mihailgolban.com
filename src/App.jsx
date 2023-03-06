@@ -1,9 +1,11 @@
-import { Header } from "./components/Header/Header";
+import { Header } from "./components/header/Header";
+import { HeroSection } from "./components/sections/HeroSection";
 
 function App() {
   return (
     <>
       <Header />
+      <HeroSection />
     </>
   );
 }

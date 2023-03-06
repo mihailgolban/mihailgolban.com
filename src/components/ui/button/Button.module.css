@@ -8,7 +8,8 @@
   uppercase 
   rounded-full 
   tracking-wide
-  text-[14px] 
+  text-[14px]
+  text-white
   px-5 
   py-2;
 }
@@ -23,7 +24,8 @@
   uppercase 
   rounded-full 
   tracking-wide
-  text-[14px] 
+  text-[14px]
+  text-white
   px-5 
   py-2;
 }

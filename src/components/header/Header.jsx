@@ -1,7 +1,7 @@
-import { Logo } from "../Logo";
-import { Button } from "../UI/Button/Button";
-import { NavLink } from "../UI/NavLink/NavLink";
+import { Button } from "@/components/ui/button/Button";
+import { NavLink } from "@/components/ui/nav-link/NavLink";
 import { MdMailOutline } from "react-icons/md";
+import { Logo } from "../Logo";
 
 export const Header = () => {
   return (
