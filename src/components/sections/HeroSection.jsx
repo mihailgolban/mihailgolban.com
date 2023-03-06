@@ -5,7 +5,7 @@ import { ReactComponent as HeroImage } from "../../assets/programmer.svg";
 export const HeroSection = () => {
   return (
     <div className="min-h-[750px]">
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto mt-10 drop-shadow-md">
         <div className="flex flex-row justify-center items-center">
           <div className="basis-1/3">
             <h1 className="text-5xl font-bold text-left leading-[78px]">
