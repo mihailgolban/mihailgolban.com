@@ -41,3 +41,32 @@ export function getServices() {
     },
   ];
 }
+
+export function getProjects() {
+  return [
+    {
+      title: "Project 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.",
+      image: "https://picsum.photos/400/300",
+      date: "2021-01-01",
+    },
+    {
+      title: "Project 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.",
+      image: "https://picsum.photos/400/300",
+      date: "2021-01-01",
+    },
+    {
+      title: "Project 3",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.",
+      image: "https://picsum.photos/400/300",
+      date: "2021-01-01",
+    },
+    {
+      title: "Project 4",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.",
+      image: "https://picsum.photos/400/300",
+      date: "2021-01-01",
+    },
+  ];
+}
