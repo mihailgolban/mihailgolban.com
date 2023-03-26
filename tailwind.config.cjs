@@ -7,6 +7,9 @@ module.exports = {
         primary: "#224DE5",
         secondary: "#F15A24",
       },
+      boxShadow: {
+        "3xl": "37px 37px 80px rgba(0, 0, 0, 0.1)",
+      },
     },
   },
   plugins: [],
