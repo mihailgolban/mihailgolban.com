@@ -3,13 +3,14 @@ import PropTypes from "prop-types";
 import styles from "./Button.module.css";
 
 export const Button = ({ children, ...props }) => {
-  const { primary, secondary, link, icon: Icon, iconPosition = "left", size, ...attrs } = props;
+  const { primary, secondary, link, icon: Icon, iconPosition = "left", size, className, ...attrs } = props;
 
   const classes = cn(
     { [styles.btnPrimary]: primary },
     { [styles.btnSecondary]: secondary },
     { [styles.btnLink]: link },
-    { [styles.btnLarge]: size === "lg" }
+    { [styles.btnLarge]: size === "lg" },
+    className
   );
 
   const iconClasses = cn("icon text-base", { "text-xl": size === "lg" });
@@ -18,23 +19,21 @@ export const Button = ({ children, ...props }) => {
   const showRightIcon = Icon && iconPosition === "right";
 
   return (
-    <>
-      <button {...attrs} className={classes}>
-        <div className="flex justify-center items-center gap-2">
-          {showLeftIcon && (
-            <span className={iconClasses}>
-              <Icon />
-            </span>
-          )}
-          <div>{children}</div>
-          {showRightIcon && (
-            <span className={iconClasses}>
-              <Icon />
-            </span>
-          )}
-        </div>
-      </button>
-    </>
+    <button {...attrs} className={classes}>
+      <div className="flex justify-center items-center gap-2">
+        {showLeftIcon && (
+          <span className={iconClasses}>
+            <Icon />
+          </span>
+        )}
+        <div>{children}</div>
+        {showRightIcon && (
+          <span className={iconClasses}>
+            <Icon />
+          </span>
+        )}
+      </div>
+    </button>
   );
 };
 
