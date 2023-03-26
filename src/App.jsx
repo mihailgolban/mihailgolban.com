@@ -1,4 +1,5 @@
 import { Header } from "./components/header/Header";
+import { ExperienceSection } from "./components/sections/ExperienceSection";
 import { HeroSection } from "./components/sections/HeroSection";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <ExperienceSection />
     </>
   );
 }
