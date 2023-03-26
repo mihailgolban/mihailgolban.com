@@ -8,7 +8,7 @@ export const NavLink = ({ children, className, active, ...props }) => {
       <a
         {...attrs}
         className={cn(
-          "text-black text-[14px] uppercase tracking-widest font-normal text-sm cursor-pointer py-2 pr-4 hover:text-secondary",
+          "text-[14px] uppercase tracking-widest font-normal text-sm cursor-pointer py-2 pr-4 hover:text-secondary",
           {
             "text-secondary": active,
           }

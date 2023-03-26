@@ -8,7 +8,7 @@ export const Header = () => {
     <header className="bg-[#F9F9FC]">
       <div className="container mx-auto ">
         <div className="flex justify-between items-center h-[100px]">
-          <div className="header__logo">
+          <div>
             <Logo />
           </div>
           <nav className="flex gap-12">

@@ -1,6 +1,8 @@
 import { ReactComponent as BackendIcon } from "@/assets/svc-backend-min.svg";
 import { ReactComponent as FrontendIcon } from "@/assets/svc-frontend-min.svg";
 import { ReactComponent as SupportIcon } from "@/assets/svc-support-min.svg";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { MdMailOutline, MdPhone } from "react-icons/md";
 
 export function getExperience() {
   return [
@@ -67,6 +69,34 @@ export function getProjects() {
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.",
       image: "https://picsum.photos/400/300",
       date: "2021-01-01",
+    },
+  ];
+}
+
+export function getContactInfo() {
+  return [
+    {
+      label: "mihailgolban91@gmail.com",
+      icon: <MdMailOutline />,
+    },
+    {
+      label: "+373 78 023 242",
+      icon: <MdPhone />,
+    },
+  ];
+}
+
+export function getSocialLinks() {
+  return [
+    {
+      title: "Github",
+      icon: <FaGithub />,
+      url: "",
+    },
+    {
+      title: "LinkedIn",
+      icon: <FaLinkedinIn />,
+      url: "",
     },
   ];
 }
